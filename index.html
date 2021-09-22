@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>OriginSix</title>
+    <link rel="stylesheet" href="assets/style.css" />
     <!----Styles-->
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style2.css" />
     <!--Fonts---->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -17,10 +18,22 @@
   </head>
 
   <body>
-    <header id="header">
+    <header id="header" class="scroll">
       <nav class="container">
         <a class="logo" href="#">Pizzaria<span>Salon</span>.</a>
-        <div class="menu">...</div>
+        <!---MENU-->
+        <div class="menu">
+          <ul class="grid">
+            <li><a class="title" href="#home">Início</a></li>
+            <li><a class="title" href="#about">Sobre</a></li>
+            <li><a class="title" href="#services">Serviços</a></li>
+            <li><a class="title" href="#">Depoimentos</a></li>
+            <li><a class="title" href="#">Contatos</a></li>
+          </ul>
+        </div>
+        <!--/MENU-->
+        <div class="toggle icon-menu"></div>
+        <div class="toggle icon-cross"></div>
       </nav>
     </header>
 
@@ -29,24 +42,103 @@
         <div class="container grid">
           <div class="image">
             <img
-            src="https://images.unsplash.com/photo-1513104890138-7c749659a591?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80"alt="Pizza Cortada"/>
+              src="https://images.unsplash.com/photo-1513104890138-7c749659a591?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80"
+              alt="Pizza Cortada"
+            />
           </div>
-         <div class="text">
-            <h1>A melhor Pizza da Cidade.</h1>
+          <div class="text">
+            <h2 class="title">A melhor Pizza da Cidade.</h2>
             <p>
               Com os mais derivados sabores e tamanhos, sua nova experiência
               Gastronomica.
             </p>
             <a class="button" href="#">Fazer pedido</a>
-         </div>
+          </div>
+        </div>
+      </section>
+      <div class="divider-1"></div>
+
+      <section class="section" id="about">
+        <div class="container grid">
+          <div class="image">
+            <img
+              src="https://images.pexels.com/photos/5908216/pexels-photo-5908216.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+              alt="Mulher Sorrindo e Fazendo Pizza"
+            />
+          </div>
+          <div class="text"></div>
+          <h2 class="title text">Sobre Nós</h2>
+          <p class="text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem,
+            odit ducimus accusamus delectus cumque eveniet commodi provident est
+            ratione alias vero nulla expedita quae esse eum excepturi
+            repudiandae aliquam sit.
+          </p>
+          <p class="text">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit,
+            earum maiores perspiciatis nemo laudantium, mollitia beatae quas,
+            quidem sint in expedita esse qui ratione. Odio assumenda aperiam sit
+            aliquam aspernatur.
+          </p>
+          <p class="text">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate
+            dolore eos, iste doloremque provident recusandae quia illum neque?
+            Amet sed porro laborum eaque voluptatum provident aut ea temporibus
+            rem asperiores?
+          </p>
         </div>
       </section>
 
-      <section class="divider-1">
-          
+      <div class="divider-2"></div>
+
+      <section class="section" id="services">
+        <div class="container grid">
+          <header>
+            <h2 class="title">Serviços</h2>
+            <p>
+              Com mais de 10 anos de Mercado, a
+              <strong><span>PizzariaSalon</span></strong> tras a você uma nova experiência
+              gastromica, com diversos sabores e tamanhos de Pizza.
+            </p>
+          </header>
+          <div class="cards">
+            <div class="card">
+              <i class="icon-coin-dollar"></i>
+              <h3 class="title">Preço Popular.</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Accusantium blanditiis eum consectetur doloremque, dignissimos
+                tenetur, iure possimus accusamus, enim quaerat quo quia. Dolor
+                ipsum accusamus amet, quam alias dolores iure.
+              </p>
+            </div>
+            <div class="card">
+              <i class="icon-location"></i>
+              <h3 class="title">Entrega em todo o bairro.</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque
+                architecto assumenda dolore nemo reiciendis. Doloremque,
+                quibusdam. Dolorum, dolorem eius mollitia sapiente laboriosam id
+                laudantium eos neque architecto ad, veritatis debitis!
+              </p>
+            </div>
+            <div class="card">
+              <i class="icon-power"></i>
+              <h3 class="title">Rapidez na Entrega.</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+                beatae inventore officiis reprehenderit perspiciatis odit.
+                Inventore recusandae obcaecati, placeat nam illum culpa vero
+                odit totam mollitia eius, voluptatum nesciunt tenetur.
+              </p>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
 
     <footer></footer>
+
+    <script src="main.js"></script>
   </body>
 </html>
