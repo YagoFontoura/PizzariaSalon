@@ -9,5 +9,6 @@ scrollReveal.reveal(
     `#home .image, #home .text,
     #about .image, #about .text,
     #services header, #services .card,
-    #testimonials header, #contact .links
+    #testimonials header, #contact .links,
+    footer .brand, footer .social
     `, { interval: 100 });

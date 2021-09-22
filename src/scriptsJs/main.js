@@ -19,19 +19,39 @@ for (const link of links) {
 
 /*Mudar o Header quando der Scroll*/
 
-const header = document.querySelector('#header');
-const navHeight = header.offsetHeight;
 
-window.addEventListener('scroll',  function() {
-    if(window.scrollY >= navHeight) {
-        header.classList.add('scroll')
-    }else{header.classList.remove('scroll')
+
+function changeHeaderWhenScroll() {
+    const header = document.querySelector('#header');
+    const navHeight = header.offsetHeight;
+
+        if(window.scrollY >= navHeight) {
+            header.classList.add('scroll')
+        } else {
+            header.classList.remove('scroll')
+    }
 }
+
+
+function backToTop() {
+    const backToTopButton = document.querySelector('.back-to-top')
+    if(window.scrollY >= 560) {
+        backToTopButton.classList.add('show')
+    }else {
+        backToTopButton.classList.remove('show')
+    }
+}
+
+
+
+
+
+
+
+window.addEventListener('scroll', function(){
+    changeHeaderWhenScroll()
+    backToTop()
 });
-
-
-
-
 
 
 
