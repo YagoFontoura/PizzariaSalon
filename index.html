@@ -5,8 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>OriginSix</title>
-    <link rel="stylesheet" href="assets/style.css" />
+    <!--Swiper-->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
     <!----Styles-->
+    <link rel="stylesheet" href="assets/style.css" />
     <link rel="stylesheet" href="style2.css" />
     <!--Fonts---->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -27,8 +32,8 @@
             <li><a class="title" href="#home">Início</a></li>
             <li><a class="title" href="#about">Sobre</a></li>
             <li><a class="title" href="#services">Serviços</a></li>
-            <li><a class="title" href="#">Depoimentos</a></li>
-            <li><a class="title" href="#">Contatos</a></li>
+            <li><a class="title" href="#testimonials">Depoimentos</a></li>
+            <li><a class="title" href="#contact">Contatos</a></li>
           </ul>
         </div>
         <!--/MENU-->
@@ -38,6 +43,7 @@
     </header>
 
     <main>
+      <!--Home-->
       <section class="section" id="home">
         <div class="container grid">
           <div class="image">
@@ -56,8 +62,10 @@
           </div>
         </div>
       </section>
+
       <div class="divider-1"></div>
 
+      <!--About-->
       <section class="section" id="about">
         <div class="container grid">
           <div class="image">
@@ -78,7 +86,7 @@
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit,
             earum maiores perspiciatis nemo laudantium, mollitia beatae quas,
             quidem sint in expedita esse qui ratione. Odio assumenda aperiam sit
-            aliquam aspernatura.
+            aliquam aspernaturas.
           </p>
           <p class="text">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate
@@ -90,15 +98,15 @@
       </section>
 
       <div class="divider-2"></div>
-
+      <!--SERVICE-->
       <section class="section" id="services">
         <div class="container grid">
           <header>
             <h2 class="title">Serviços</h2>
             <p>
               Com mais de 10 anos de Mercado, a
-              <strong><span>PizzariaSalon</span></strong> tras a você uma nova experiência
-              gastromica, com diversos sabores e tamanhos de Pizza.
+              <strong><span>PizzariaSalon</span></strong> tras a você uma nova
+              experiência gastromica, com diversos sabores e tamanhos de Pizza.
             </p>
           </header>
           <div class="cards">
@@ -135,10 +143,123 @@
           </div>
         </div>
       </section>
+
+      <div class="divider-1"></div>
+
+      <!--TESTIMONIALS-->
+
+      <section class="section" id="testimonials">
+        <div class="container">
+          <header>
+            <h2>Depoimentos dos Clientes</h2>
+          </header>
+
+          <div class="swiper testimonials">
+            <div class="swiper-wrapper">
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span> &ldquo;</span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quam, labore, omnis tempora natus odit ut at, sunt repellat
+                    quas porro id dolorem atque asperiores sequi. Voluptate
+                    assumenda amet magni suscipit!
+                  </p>
+
+                  <cite>
+                    <img
+                      src="https://randomuser.me/api/portraits/women/57.jpg"
+                      alt="Foto de Wanessa Souza"
+                    />
+                    Wanessa Souza
+                  </cite>
+                </blockquote>
+              </div>
+
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span> &ldquo;</span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quam, labore, omnis tempora natus odit ut at, sunt repellat
+                    quas porro id dolorem atque asperiores sequi. Voluptate
+                    assumenda amet magni suscipit!
+                  </p>
+                  <cite>
+                    <img
+                      src="https://randomuser.me/api/portraits/men/58.jpg"
+                      alt="Foto de Caio Moraes"
+                    />
+                    Caio Moraes
+                  </cite>
+                </blockquote>
+              </div>
+
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span> &ldquo;</span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quam, labore, omnis tempora natus odit ut at, sunt repellat
+                    quas porro id dolorem atque asperiores sequi. Voluptate
+                    assumenda amet magni suscipit!
+                  </p>
+                  <cite>
+                    <img
+                      src="https://randomuser.me/api/portraits/women/17.jpg"
+                      alt="Foto de Franciele Venega"
+                    />
+                    Franciele Venega
+                  </cite>
+                </blockquote>
+              </div>
+            </div>
+
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+
+      <!--CONTACT-->
+      <section class="section" id="contact">
+        <div class="container grid">
+          <div class="text">
+            <h2 class="title">Entre em Contato com a gente!</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid
+              in dicta, soluta voluptatibus fugiat necessitatibus sunt
+              repudiandae ab, corrupti explicabo debitis veniam repellendus sit
+              iusto quibusdam perspiciatis consequatur beatae odio?
+            </p>
+            <a href="https://api.whatsapp.com/send?phone=55219999999999&text=Ol%C3%A1" class="button" target="_blank"
+              ><i class="icon-whatsapp"></i>Entrar em Contato</a
+            >
+          </div>
+
+          <div class="links">
+            <ul class="grid">
+              <li><i class="icon-phone"></i> (21)9 9999-9999</li>
+              <li>
+                <i class="icon-location"></i> Rua Japuru 623 - Rio de Janeiro
+              </li>
+              <li><i class="icon-instagram"></i> @PizzariaSalon</li>
+            </ul>
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer></footer>
 
-    <script src="main.js"></script>
+
+
+    <!--librarys-->
+  
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="./src/scriptsJs/ScrollReveal.js"></script>
+    <script src="./src/scriptsJs/Swiper.js"></script>
+    <script src="./src/scriptsJs/main.js"></script>
+
   </body>
 </html>

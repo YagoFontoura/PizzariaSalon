@@ -1,18 +1,19 @@
 @font-face {
-  font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?svfc9n');
-  src:  url('fonts/icomoon.eot?svfc9n#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?svfc9n') format('truetype'),
-    url('fonts/icomoon.woff?svfc9n') format('woff'),
-    url('fonts/icomoon.svg?svfc9n#icomoon') format('svg');
+  font-family: "icomoon";
+  src: url("fonts/icomoon.eot?svfc9n");
+  src: url("fonts/icomoon.eot?svfc9n#iefix") format("embedded-opentype"),
+    url("fonts/icomoon.ttf?svfc9n") format("truetype"),
+    url("fonts/icomoon.woff?svfc9n") format("woff"),
+    url("fonts/icomoon.svg?svfc9n#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 
-[class^="icon-"], [class*=" icon-"] {
+[class^="icon-"],
+[class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'icomoon' !important;
+  font-family: "icomoon" !important;
   speak: never;
   font-style: normal;
   font-weight: normal;
@@ -61,3 +62,4 @@
 .icon-youtube2:before {
   content: "\ea9e";
 }
+

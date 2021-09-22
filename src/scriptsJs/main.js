@@ -1,3 +1,4 @@
+/*Navigation*/
 const nav = document.querySelector('#header nav')
 const toggle = document.querySelectorAll('nav .toggle')
 
@@ -15,6 +16,7 @@ for (const link of links) {
     });
 }
 
+
 /*Mudar o Header quando der Scroll*/
 
 const header = document.querySelector('#header');
@@ -26,3 +28,14 @@ window.addEventListener('scroll',  function() {
     }else{header.classList.remove('scroll')
 }
 });
+
+
+
+
+
+
+
+
+
+
+
