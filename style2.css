@@ -145,7 +145,7 @@ main {
   color: var(--base-color);
 }
 .logo {
-  font: 700 1.31rem var(--titlle-font);
+  font: 700 1.31rem var(--title-font);
   color: var(--title-color);
 }
 .logo-alt span {
@@ -161,13 +161,11 @@ nav {
   width: 100%;
 }
 
-nav ul li a,
-nav ul li a:active {
+nav ul li a {
   transition: 0.2s;
   position: relative;
 }
-nav ul li a:hover,
-nav ul li a:active {
+nav ul li a:hover {
   color: var(--text-color);
  
 }
@@ -183,9 +181,7 @@ nav ul li a:after{
   bottom: -1.5rem;
   transition: width 0.2s;
 }
-nav ul li a:hover::after,
-nav ul li a:active
-{
+nav ul li a:hover::after{
   width: 100%;
   
 }
