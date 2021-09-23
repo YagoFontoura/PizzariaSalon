@@ -1,5 +1,5 @@
 <h1>Pizzaria <strong>Salon</strong><h1>
-<img  src="./assets/readme/site.gif" alt="">
+<img  src="./assets/readme/Site.gif" alt="">
 <p>The Shalon pizzeria is an Institutional website project, which aims to be beautiful, fast and adaptable.
 
 Made just HTML, CSS and JavaScript, the site is fully responsive and easy to change so if you need to use it, you can change the colors of the entire site, with just one modification.</p>
