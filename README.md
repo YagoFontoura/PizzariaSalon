@@ -1,10 +1,10 @@
 <h1>Pizzaria <strong>Salon</strong><h1>
 <img  src="./assets/readme/Site.gif" alt="">
-<p>The Salon Pizzaria is an Institutional website project, which aims to be beautiful, fast and adaptable.
+<p>O Salão Pizzaria é um projeto de site institucional, que visa ser bonito, rápido e adaptável.
 
-Made just HTML, CSS and JavaScript, the site is fully responsive and easy to change so if you need to use it, you can change the colors of the entire site, with just one modification.</p>
+Feito apenas em HTML, CSS e JavaScript, o site é totalmente responsivo e fácil de mudar, então se você precisar usá-lo, pode mudar as cores de todo o site, com apenas uma modificação.</p>
 
-<h1> Changing Colors</h1>
+<h1> Mudança de cores</h1>
 <img  src="./assets/readme/Site-colorido.gif" alt="">
 
 
@@ -14,21 +14,21 @@ Made just HTML, CSS and JavaScript, the site is fully responsive and easy to cha
 </br>
 </br>
 </br>
-<h1>How to install<h1>
+<h1>Como instalar<h1>
 
 ```
-# clone the repository
+# clonar o repositório
 $ git clone https://github.com/YagoFontoura/PizzariaSalon.git
 
-#once cloned, open with Live Server or with your preferred #extension index.html
+# uma vez clonado, abra com Live Server ou com sua extensão preferida index.html
 
 ```
 
 
-<p>technologies used: HTML - CSS - JAVASCRIPT</p>
+<p>tecnologias usadas: HTML - CSS - JAVASCRIPT</p>
 
 
 
 <a href="https://yagofontoura.github.io/PizzariaSalon/" target="_blank"><button style=" width: 160px; height:40px; background: #b9916a; border-radius:20px; border:none; font-weight: bold; "> TEST NOW</button></a>
 
-<p>Made with 💜  by Yago B. Fontoura 👋🏼 See my Linkedin</p>
+<p>Fabricado com 💜 por Yago B. Fontoura 👋🏼 Veja meu <a href="https://www.linkedin.com/in/yago-fontoura/">Linkedin</a></p>
